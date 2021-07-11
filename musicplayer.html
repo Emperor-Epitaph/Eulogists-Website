@@ -116,7 +116,14 @@
             document.getElementById("my_audio3".style).display = "inline";
         }
         }
-        
+	    
+        if (getParameter("music") === 'Californication') {
+            window.onload = function() {
+            document.getElementById("my_audio2").style.display = "none";
+            document.getElementById("my_audio1").style.display = "none";
+            document.getElementById("my_audio3".style).display = "inline";
+        }
+        }
             </script>
 
 </body>
